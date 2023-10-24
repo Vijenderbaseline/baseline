@@ -11,6 +11,16 @@ header.solid-nav-anim {
   transition: all 0.2s linear;
 }
 
+@media (max-width: 1023.5px) {
+  main {
+    margin-top: 0 !important;
+  }
+  .dotlottie {
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0 !important;
+  }
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -38,12 +48,28 @@ h1 {
   font-weight: 800;
   line-height: 98px;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+}
 
 h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
   line-height: 64px;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+  }
 }
 
 h3 {
@@ -93,6 +119,14 @@ h6 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+@media (max-width: 768px) {
+  .lead1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
 }
 
 .lead2 {

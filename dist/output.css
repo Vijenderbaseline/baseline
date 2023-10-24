@@ -585,9 +585,9 @@ html {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .container {
-    max-width: 640px;
+    max-width: 576px;
   }
 }
 
@@ -606,12 +606,6 @@ html {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
   }
 }
 
@@ -1667,12 +1661,12 @@ html {
   z-index: 1;
 }
 
-.col-span-3 {
-  grid-column: span 3 / span 3;
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
-.col-span-6 {
-  grid-column: span 6 / span 6;
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 
 .row-span-3 {
@@ -1699,6 +1693,14 @@ html {
   margin-top: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .grid {
   display: grid;
 }
@@ -1707,8 +1709,16 @@ html {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-5 {
   height: 1.25rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-screen {
@@ -1837,15 +1847,6 @@ html {
   text-align: center;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.normal-case {
-  text-transform: none;
-}
-
 .text-primary {
   --tw-text-opacity: 1;
   color: hsl(var(--p) / var(--tw-text-opacity));
@@ -1878,6 +1879,18 @@ header.solid-nav-anim {
   transition: all 0.2s linear;
 }
 
+@media (max-width: 1023.5px) {
+  main {
+    margin-top: 0 !important;
+  }
+
+  .dotlottie {
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -1906,11 +1919,29 @@ h1 {
   line-height: 98px;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+}
+
 h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
   line-height: 64px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+  }
 }
 
 h3 {
@@ -1960,6 +1991,15 @@ h6 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+@media (max-width: 768px) {
+  .lead1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
 }
 
 .lead2 {
@@ -2035,7 +2075,21 @@ h6 {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
   .lg\:flex {
     display: flex;
   }
