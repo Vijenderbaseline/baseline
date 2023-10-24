@@ -5,10 +5,10 @@ $(document).ready(function () {
         var scrollTop = $(window).scrollTop();
 
         if (scrollTop >= height) {
-            $('header').addClass('solid-nav');
+            $('header').addClass('solid-nav-anim');
             $('header').addClass('shadow-md');
         } else {
-            $('header').removeClass('solid-nav');
+            $('header').removeClass('solid-nav-anim');
             $('header').removeClass('shadow-md');
         }
     });
