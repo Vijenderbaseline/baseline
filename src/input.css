@@ -3,11 +3,36 @@
 @tailwind utilities;
 body {
   font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+}
+
+header.solid-nav {
+  background-color: #fff;
+  transition: all 0.2s linear;
 }
 
 .container {
   max-width: 1240px;
   margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.subtitle1,
+.subtitle2,
+.lead1,
+.lead2,
+.body1,
+.body2,
+.label-lg,
+.label-md,
+.label-sm,
+.capitalized {
+  color: #18191F;
 }
 
 h1 {
@@ -122,4 +147,10 @@ h6 {
   line-height: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.hero .circle-hero {
+  height: 1135px;
+  width: 1135px;
+  right: -45%;
 }/*# sourceMappingURL=input.css.map */

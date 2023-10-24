@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-$brand-red: BB372A;
+$brand-red: #BB372A;
 $font-primary: 'Manrope', sans-serif;
 
 body {
     font-family: $font-primary;
+    overflow-x: hidden;
+}
+
+header {
+    &.solid-nav {
+        background-color: #fff;
+        transition: all 0.2s linear;
+    }
 }
 
 .container {
@@ -15,6 +23,25 @@ body {
 }
 
 //Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.subtitle1,
+.subtitle2,
+.lead1,
+.lead2,
+.body1,
+.body2,
+.label-lg,
+.label-md,
+.label-sm,
+.capitalized {
+    color: #18191F;
+}
+
 h1 {
     font-size: 72px;
     font-style: normal;
@@ -127,4 +154,12 @@ h6 {
     line-height: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.hero {
+    .circle-hero {
+        height: 1135px;
+        width: 1135px;
+        right: -45%;
+    }
 }
