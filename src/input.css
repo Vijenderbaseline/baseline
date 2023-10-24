@@ -10,23 +10,116 @@ body {
   margin: 0 auto;
 }
 
-.main-heading {
+h1 {
   font-size: 72px;
   font-style: normal;
   font-weight: 800;
   line-height: 98px;
 }
 
-.subheading {
+h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
   line-height: 64px;
 }
 
-.description {
+h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 54px;
+}
+
+h4 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+h5 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+h6 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.subtitle1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.subtitle2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.lead1 {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+.lead2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.body1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.body2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.label-lg {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.label-md {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.label-sm {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.capitalized {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=input.css.map */
