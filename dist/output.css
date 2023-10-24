@@ -1693,6 +1693,10 @@ html {
   margin-top: 0.75rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -1839,6 +1843,10 @@ html {
   padding-bottom: 1.5rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1894,6 +1902,13 @@ header.solid-nav-anim {
 .container {
   max-width: 1240px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+    max-width: 100%;
+  }
 }
 
 h1,
@@ -2053,6 +2068,10 @@ h6 {
   text-transform: uppercase;
 }
 
+.hero .hero-content {
+  padding: 0 !important;
+}
+
 .hero .circle-hero {
   height: 1135px;
   width: 1135px;
@@ -2078,6 +2097,22 @@ h6 {
 @media (min-width: 768px) {
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
 
   .md\:text-center {

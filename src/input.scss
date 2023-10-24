@@ -55,6 +55,10 @@ header {
 .container {
     max-width: 1240px;
     margin: 0 auto;
+    @include mobile{
+        padding: 0 16px;
+        max-width: 100%;
+    }
 }
 
 //Typography
@@ -209,6 +213,9 @@ h6 {
 }
 
 .hero {
+    .hero-content{
+        padding: 0 !important;
+    }
     .circle-hero {
         height: 1135px;
         width: 1135px;

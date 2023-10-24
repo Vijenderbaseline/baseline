@@ -25,6 +25,12 @@ header.solid-nav-anim {
   max-width: 1240px;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+    max-width: 100%;
+  }
+}
 
 h1,
 h2,
@@ -180,6 +186,9 @@ h6 {
   text-transform: uppercase;
 }
 
+.hero .hero-content {
+  padding: 0 !important;
+}
 .hero .circle-hero {
   height: 1135px;
   width: 1135px;
