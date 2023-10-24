@@ -1,15 +1,15 @@
 $(document).ready(function () {
     /* Sticky Nav */
     $(window).scroll(function () {
-        var height = $('header').height();
+        var height = $('header.sticky').height();
         var scrollTop = $(window).scrollTop();
 
         if (scrollTop >= height) {
-            $('header').addClass('solid-nav-anim');
-            $('header').addClass('shadow-md');
+            $('header.sticky').addClass('solid-nav-anim');
+            $('header.sticky').addClass('shadow-md');
         } else {
-            $('header').removeClass('solid-nav-anim');
-            $('header').removeClass('shadow-md');
+            $('header.sticky').removeClass('solid-nav-anim');
+            $('header.sticky').removeClass('shadow-md');
         }
     });
 });

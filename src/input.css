@@ -28,9 +28,6 @@ h6,
 .lead2,
 .body1,
 .body2,
-.label-lg,
-.label-md,
-.label-sm,
 .capitalized {
   color: #18191F;
 }
@@ -153,4 +150,19 @@ h6 {
   height: 1135px;
   width: 1135px;
   right: -45%;
+}
+
+.tech-section .grid .row-span-3 img {
+  transition: transform 0.4s ease;
+  background: #fff;
+  height: 96px;
+  width: 170px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #ddd7d7;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tech-section .grid .row-span-3 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }/*# sourceMappingURL=input.css.map */
