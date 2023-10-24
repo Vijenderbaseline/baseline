@@ -1693,16 +1693,12 @@ html {
   margin-top: 0.75rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.block {
-  display: block;
-}
-
 .inline-block {
   display: inline-block;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -1745,20 +1741,16 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-6 {
@@ -1805,10 +1797,6 @@ html {
   fill: currentColor;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -1826,11 +1814,6 @@ html {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .py-20 {
@@ -2089,6 +2072,13 @@ h6 {
   margin-left: auto;
 }
 
+@media (max-width: 768px) {
+  .tech-section .grid .row-span-3 img {
+    height: 45px;
+    width: 90px;
+  }
+}
+
 .tech-section .grid .row-span-3 img:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -2101,10 +2091,6 @@ h6 {
 
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
-  }
-
-  .md\:grid {
-    display: grid;
   }
 
   .md\:grid-cols-5 {

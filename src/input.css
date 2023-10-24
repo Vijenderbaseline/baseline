@@ -205,6 +205,12 @@ h6 {
   margin-right: auto;
   margin-left: auto;
 }
+@media (max-width: 768px) {
+  .tech-section .grid .row-span-3 img {
+    height: 45px;
+    width: 90px;
+  }
+}
 .tech-section .grid .row-span-3 img:hover {
   transform: scale(1.1);
   cursor: pointer;
