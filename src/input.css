@@ -205,11 +205,6 @@ h6 {
   padding: 0 !important;
   min-width: 100% !important;
 }
-.hero .circle-hero {
-  height: 1135px;
-  width: 1135px;
-  right: -45%;
-}
 
 .tech-section .grid .row-span-3 img {
   transition: transform 0.4s ease;
