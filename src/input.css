@@ -6,6 +6,19 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+    max-width: 100%;
+  }
+}
+
 header.solid-nav-anim {
   background-color: #fff;
   transition: all 0.2s linear;
@@ -21,17 +34,6 @@ header.solid-nav-anim {
     margin-left: 0 !important;
   }
 }
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .container {
-    padding: 0 16px;
-    max-width: 100%;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -186,8 +188,22 @@ h6 {
   text-transform: uppercase;
 }
 
+.topnav {
+  border-bottom: 1px solid #ffe7ef;
+}
+
+#particles-js {
+  position: relative;
+}
+#particles-js canvas {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
 .hero .hero-content {
   padding: 0 !important;
+  min-width: 100% !important;
 }
 .hero .circle-hero {
   height: 1135px;
