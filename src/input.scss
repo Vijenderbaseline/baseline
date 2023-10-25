@@ -38,7 +38,8 @@ body {
     padding-left: 100px;
     max-width: 1800px;
     margin: 0 auto;
-    @include mobile{
+
+    @include mobile {
         padding: 0 16px;
         max-width: 100%;
     }
@@ -100,6 +101,7 @@ h2 {
     font-style: normal;
     font-weight: 800;
     line-height: 64px;
+
     @include mobile {
         font-size: 40px;
         font-style: normal;
@@ -215,13 +217,37 @@ h6 {
     text-transform: uppercase;
 }
 
-.topnav{
+.topnav {
     border-bottom: 1px solid #ffe7ef;
+    .phone-email {
+        a{
+            font-size: 14px;
+        }
+    }
+    .icons{
+        a{
+            transition: transform ease-in 0.1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            &:last-child{
+                i{
+                    margin: 0px;
+                }  
+            }
+        }
+        i {
+            margin: 0px 32px 0px 0px;
+            color: #bb372a;
+            font-size: 24px;
+        }
+    }
 }
 
-#particles-js{
+#particles-js {
     position: relative;
-    canvas{
+
+    canvas {
         position: absolute;
         top: 0;
         z-index: 5;
@@ -229,7 +255,7 @@ h6 {
 }
 
 .hero {
-    .hero-content{
+    .hero-content {
         padding: 0 !important;
         min-width: 100% !important;
     }
@@ -243,10 +269,12 @@ h6 {
                 background: #fff;
                 height: 96px;
                 width: 170px;
-                @include mobile{
+
+                @include mobile {
                     height: 45px;
                     width: 90px;
                 }
+
                 border-radius: 10px;
                 box-shadow: 0px 3px 5px #ddd7d7;
                 margin-right: auto;
