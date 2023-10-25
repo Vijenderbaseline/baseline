@@ -1,4 +1,4 @@
-$(document).ready(function () {
+window.addEventListener('DOMContentLoaded', (event) => {
     /* Sticky Nav */
     $(window).scroll(function () {
         var height = $('header.sticky').height();
