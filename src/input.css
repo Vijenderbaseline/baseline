@@ -191,6 +191,23 @@ h6 {
 .topnav {
   border-bottom: 1px solid #ffe7ef;
 }
+.topnav .phone-email a {
+  font-size: 14px;
+}
+.topnav .icons a {
+  transition: transform ease-in 0.1s;
+}
+.topnav .icons a:hover {
+  transform: scale(1.1);
+}
+.topnav .icons a:last-child i {
+  margin: 0px;
+}
+.topnav .icons i {
+  margin: 0px 32px 0px 0px;
+  color: #bb372a;
+  font-size: 24px;
+}
 
 #particles-js {
   position: relative;
