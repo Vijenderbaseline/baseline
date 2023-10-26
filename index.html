@@ -1,259 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <title>Baseline IT Development</title>
-  <link rel="stylesheet" href="dist/output.css">
-  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div class="topnav py-2 relative z-50">
-    <div class="container flex justify-between flex-col md:flex-row">
-      <div class="phone-email mb-4 md:mb-0 col-span-4 flex md:block">
-        <a href="tel:7340740007" class="mr-4 md:mr-8 inline-block">
-          <i class="fa-solid fa-phone mr-2 text-primary"></i>7340740007
-        </a>
-        <a class="inline-block" href="mailto:hr@baselineitdevelopment.com">
-          <i class="fa-solid fa-envelope mr-2 text-primary"></i>hr@baselineitdevelopment.com
-        </a>
-      </div>
-      <div class="icons flex items-center">
-        <a href="https://www.instagram.com/baselineitdevelopmemt/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://in.linkedin.com/company/baselineitdevelopment"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://twitter.com/BaselineITDev/"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.facebook.com/BaselineItDevelopment.pvt.ltd"><i class="fa-brands fa-facebook"></i></a>
+<?php 
+    include_once('template/layout/header.php');
+  ?>
+<main>
+  <section id="particles-js" class="">
+    <div class="container hero min-h-screen">
+      <div class="hero-content grid grid-cols-12 gap-8 lg:flex-row-reverse relative z-10">
+        <div class="lg:col-span-6 col-span-12">
+          <h1><span class="text-primary">Team</span> Of Professionals</h1>
+          <p class="py-6 lead1">Baseline IT Development has a team of professionals with one mission of
+            empowering the lives through intense solutions of technology. We invite clients, partners, and employees
+            to join us for business development as well as career development. Our experts provide top-tier services
+            in web development, Designing, maintenance, support, testing, and Optimization.</p>
+          <button class="btn btn-primary btn-wide">Get Started</button>
+        </div>
+        <div class="lg:col-span-6 col-span-12">
+          <dotlottie-player class="dotlottie"
+            src="https://lottie.host/34d9f2c7-4dfd-411f-bf8b-e76498aab755/zHNeWsODFy.json" background="transparent"
+            speed="1" style="width: 600px; height: 600px; position: relative; z-index: 1; margin-left: 100px;" loop
+            autoplay></dotlottie-player>
+          <div class="hidden bg-secondary rounded-full circle-hero absolute -top-2/3 z-0"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <header class="sticky top-0 z-50 left-0 right-0 bg-transparent">
-    <div class="hidden shadow-md"></div>
-    <div class="container navbar py-4">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </label>
-          <ul tabindex="0"
-            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 label-md">
-            <li><a>About</a></li>
-            <li>
-              <a>Services</a>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Career</a></li>
-            <li><a>Blog</a></li>
-          </ul>
+  </section>
+  <section class="relative pb-16 z-10 bg-white">
+    <div class="container tech-section md:text-center">
+      <div class="mb-12">
+        <h2 class="mb-2"><span class="text-primary">Technologies</span> We Use</h2>
+        <p class="lead1">Customers who use Landify UI Kit to build their new startup landing page.</p>
+      </div>
+      <div class="grid md:grid-rows-3 md:grid-cols-5 gap-6 justify-center items-center">
+        <div class="row-span-3">
+          <img src="assets/images/wordpress.png" alt="" srcset="">
         </div>
-        <a href="/" class="h-full inline-block"><img class="h-10" src="assets/logos/baselinelogo.svg" alt=""
-            srcset=""></a>
-      </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1 label-md gap-4">
-          <li><a>About</a></li>
-          <li tabindex="0">
-            <details>
-              <summary>Services</summary>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </details>
-          </li>
-          <li><a>Career</a></li>
-          <li><a>Blog</a></li>
-        </ul>
-      </div>
-      <div class="navbar-end">
-        <a class="btn btn-primary">Contact Us</a>
+        <div class="row-span-3 md:block flex gap-10">
+          <img class="md:mb-10" src="assets/images/React.png" alt="" srcset="">
+          <img src="assets/images/Angular.png" alt="" srcset="">
+        </div>
+        <div class="row-span-3 flex md:block gap-10">
+          <img class="md:mb-10" src="assets/images/HTML.png" alt="" srcset="">
+          <img class="md:mb-10" src="assets/images/JavaSC.png" alt="" srcset="">
+          <img src="assets/images/PHP.png" alt="" srcset="">
+        </div>
+        <div class="row-span-3 flex md:block gap-10">
+          <img class="md:mb-10" src="assets/images/Bigcommerce.png" alt="" srcset="">
+          <img src="assets/images/Flutter.png" alt="" srcset="">
+        </div>
+        <div class="row-span-3">
+          <img src="assets/images/SF.png" alt="" srcset="">
+        </div>
       </div>
     </div>
-  </header>
-  <main style="margin-top: -109px;">
-    <section id="particles-js" class="">
-      <div class="container hero min-h-screen">
-        <div class="hero-content grid grid-cols-12 gap-8 lg:flex-row-reverse relative z-10">
-          <div class="lg:col-span-6 col-span-12">
-            <h1><span class="text-primary">Team</span> Of Professionals</h1>
-            <p class="py-6 lead1">Baseline IT Development has a team of professionals with one mission of
-              empowering the lives through intense solutions of technology. We invite clients, partners, and employees
-              to join us for business development as well as career development. Our experts provide top-tier services
-              in web development, Designing, maintenance, support, testing, and Optimization.</p>
-            <button class="btn btn-primary btn-wide">Get Started</button>
-          </div>
-          <div class="lg:col-span-6 col-span-12">
-            <dotlottie-player class="dotlottie"
-              src="https://lottie.host/34d9f2c7-4dfd-411f-bf8b-e76498aab755/zHNeWsODFy.json" background="transparent"
-              speed="1" style="width: 600px; height: 600px; position: relative; z-index: 1; margin-left: 100px;" loop
-              autoplay></dotlottie-player>
-            <div class="hidden bg-secondary rounded-full circle-hero absolute -top-2/3 z-0"></div>
-          </div>
+  </section>
+  <?php 
+    include_once('template/components/services.php');
+  ?>
+  <section class="py-20 stats-section">
+    <div class="container">
+      <div class="grid md:grid-cols-4 grid-cols-2 py-8 shadow-lg rounded-lg gap-8">
+        <div class="text-center">
+          <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
+          <h2 class="text-primary">2000+</h2>
+          <p class="lead1">Clients Worldwide</p>
+        </div>
+        <div class="text-center">
+          <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
+          <h2 class="text-primary">5000+</h2>
+          <p class="lead1">Projects Completed</p>
+        </div>
+        <div class="text-center">
+          <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
+          <h2 class="text-primary">150+</h2>
+          <p class="lead1">Employees</p>
+        </div>
+        <div class="text-center">
+          <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
+          <h2 class="text-primary">10+</h2>
+          <p class="lead1">Years In Business</p>
         </div>
       </div>
-    </section>
-    <section class="relative pb-16 z-10 bg-white">
-      <div class="container tech-section md:text-center">
-        <div class="mb-12">
-          <h2 class="mb-2"><span class="text-primary">Technologies</span> We Use</h2>
-          <p class="lead1">Customers who use Landify UI Kit to build their new startup landing page.</p>
-        </div>
-        <div class="grid md:grid-rows-3 md:grid-cols-5 gap-6 justify-center items-center">
-          <div class="row-span-3">
-            <img src="assets/images/wordpress.png" alt="" srcset="">
-          </div>
-          <div class="row-span-3 md:block flex gap-10">
-            <img class="md:mb-10" src="assets/images/React.png" alt="" srcset="">
-            <img src="assets/images/Angular.png" alt="" srcset="">
-          </div>
-          <div class="row-span-3 flex md:block gap-10">
-            <img class="md:mb-10" src="assets/images/HTML.png" alt="" srcset="">
-            <img class="md:mb-10" src="assets/images/JavaSC.png" alt="" srcset="">
-            <img src="assets/images/PHP.png" alt="" srcset="">
-          </div>
-          <div class="row-span-3 flex md:block gap-10">
-            <img class="md:mb-10" src="assets/images/Bigcommerce.png" alt="" srcset="">
-            <img src="assets/images/Flutter.png" alt="" srcset="">
-          </div>
-          <div class="row-span-3">
-            <img src="assets/images/SF.png" alt="" srcset="">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bg-secondary py-20">
-      <div class="services-section container text-center">
-        <h2 class="mb-12">Our <span class="text-primary">Services</span></h2>
-        <div class="grid grid-cols-3 gap-8">
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-          <div class="bg-white gap-8 py-10 px-8 text-left rounded-lg col-span-3 md:col-span-1">
-            <img class="mb-12" src="assets/logos/01.svg" alt="" srcset="">
-            <h5 class="mb-3">Mobile Application</h5>
-            <p class="body1 mb-10">Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus
-              erat.</p>
-            <a class="link link-primary label-sm text-primary">Explore</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="py-20">
-      <div class="container">
-        <div class="grid md:grid-cols-4 grid-cols-2 py-8 shadow-lg rounded-lg">
-          <div class="text-center">
-            <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
-          </div>
-          <div class="text-center">
-            <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
-          </div>
-          <div class="text-center">
-            <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
-          </div>
-          <div class="text-center">
-            <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-  </main>
-  <footer class="py-10 bg-slate-700">
-    <div class="container grid grid-cols-12 gap-8 footer text-white">
-      <aside class="md:col-span-3 col-span-12">
-        <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-          clip-rule="evenodd" class="fill-current">
-          <path
-            d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
-          </path>
-        </svg>
-        <p>Baseline IT Development<br />Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed
-          turpis volutpat. Cursus sed massa non nisi, placerat.</p>
-      </aside>
-      <nav class="md:col-span-3 col-span-12">
-        <header class="footer-title">Services</header>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav>
-      <nav class="md:col-span-3 col-span-12">
-        <header class="footer-title">Company</header>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav>
-      <nav class="md:col-span-3 col-span-12">
-        <header class="footer-title">Legal</header>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav>
     </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </section>
+  <section class="img-section py-16">
+    <div class="container">
+      <div class="head-text grid grid-cols-12 gap-8">
+        <h3 class="col-span-12 md:col-span-6"><span class="text-primary">Get a beautiful</span> website that converts
+          visitors into customers</h3>
+        <p class="lead1 col-span-12 md:col-span-6">Elaborate your business with trusted websites. We have a creative
+          team of designers and developers who build your website that your customer will love. On all devices, your
+          website looks great with a fast loading speed. Our team always believes in word challenging and teamwork.</p>
+      </div>
+      <img class="mt-12 w-full" src="assets/images/CoverImage.png" alt="">
+    </div>
+  </section>
+  <section class="testimonial py-20 bg-secondary overflow-hidden">
+    <div class="container">
+      <h2 class="mb-8"><span class="text-primary">Our </span>Clients Speak to us</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonials rounded-lg bg-white p-8">
+              <p class="body2">The team of Baseline IT development is efficiently and quickly completed my Shopify
+                website, Perfect day to launch the website and the team suggested all the things according to my store
+                requirement. All the candidates are very helpful, and they instant replies to every query and things
+                are under budget. I think the entire team for their good efforts. Thanks!</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonials rounded-lg bg-white p-8">
+              <p class="body2">The staff is really appreciated for what has the creativity in their service coming back
+                to me. I visited into the company (Baseline IT Development), there is a great environment, and everyone
+                is busy with their work in a peaceful manner. I saw the actual work environment, that I saw before. The
+                sales team is very talented in communication and coordination with all the staff as well as clients. I
+                talked with seniors and Team leads, everyone has experts in their work. I got the best service. I am
+                very happy, about I have a good partner to take care of my online business. I really appreciate for
+                amazing staff in Baseline IT Development!! Amazing service!!!</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonials rounded-lg bg-white p-8">
+              <p class="body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, explicabo ab. Ipsum
+                inventore nam sit magni voluptatum ratione, amet perspiciatis pariatur illum rem consequatur quo,
+                explicabo adipisci fugiat placeat eius nostrum. Magnam animi et voluptates, ex distinctio fuga, eius
+                beatae commodi asperiores nobis velit consequatur id non, nihil iste atque dolores dolore quasi esse?
+                Ipsum facilis, quis deserunt ad illo doloremque at cupiditate dolor!</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonials rounded-lg bg-white p-8">
+              <p class="body2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quibusdam saepe
+                nisi minus dolorum ratione exercitationem iste adipisci sequi voluptatibus? Odio magni amet et unde
+                aliquid velit fuga. Temporibus tempore aliquid cum debitis, natus recusandae, vitae aliquam adipisci
+                quo, atque rem maiores tempora itaque. Eius aspernatur, asperiores consequatur quidem voluptates natus
+                modi dignissimos, libero reprehenderit, nemo autem.</p>
+            </div>
+          </div>
 
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        </div>
+        <div class="pagination-wrap flex justify-center mt-7">
+          <div class="swiper-pagination-custom !w-fit"></div>
+        </div>
+      </div>
+    </div>
 
-  <script src="JS/main.js"></script>
-</body>
-
-</html>
+  </section>
+</main>
+<?php 
+    include_once('template/layout/footer.php');
+?>

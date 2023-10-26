@@ -24,6 +24,10 @@ header.solid-nav-anim {
   transition: all 0.2s linear;
 }
 
+main {
+  margin-top: -109px;
+}
+
 @media (max-width: 1023.5px) {
   main {
     margin-top: 0 !important;
@@ -47,7 +51,7 @@ h6,
 .body1,
 .body2,
 .capitalized {
-  color: #18191F;
+  color: #18191f;
 }
 
 h1 {
@@ -242,4 +246,22 @@ h6 {
 .tech-section .grid .row-span-3 img:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.stats-section {
+  background: linear-gradient(to bottom, #ffe7e4 50%, #ffffff 50%);
+}
+.stats-section .container .grid {
+  background: #ffffff;
+}
+
+.testimonial .testimonials p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.service-hero .laptop {
+  height: 250px;
 }/*# sourceMappingURL=input.css.map */

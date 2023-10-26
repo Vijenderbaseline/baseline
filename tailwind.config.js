@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*"],
+  content: [
+    '*',
+    './template/**/*.{php,js,html}'
+  ],
   theme: {
     extend: {},
     screens: {
@@ -15,7 +18,7 @@ module.exports = {
       {
         mytheme: {
           "primary": "#bb372a",
-          "secondary": "#ffe7ef",        
+          "secondary": "#FFE7E4",        
           "accent": "#FFACA3",        
           "neutral": "#bb372a",
           "base-100": "#ffffff",
