@@ -43,15 +43,11 @@ body {
   }
 }
 
-.header {
-  &.solid-nav-anim {
-    background-color: #fff;
-    transition: all 0.2s linear;
-  }
-}
-
-main {
-  margin-top: -109px;
+header {
+    &.solid-nav-anim {
+        background-color: #fff;
+        transition: all 0.2s linear;
+    }
 }
 
 @include tablet {
