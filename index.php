@@ -7,6 +7,9 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Baseline IT Development</title>
   <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.2/swiper-bundle.min.css"
+    integrity="sha512-PRY5WanOn66pQYvwsRB8RtbxSr9FbDaieE2fRrBOOcjluzKggxMbmCiSMTL7Lw2m/oAdpalMYhxpz5LwO3Q4Ag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
@@ -14,6 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 
@@ -21,7 +25,7 @@
   <?php 
     include_once('header.php');
   ?>
-  <main style="margin-top: -109px;">
+  <main>
     <section id="particles-js" class="">
       <div class="container hero min-h-screen">
         <div class="hero-content grid grid-cols-12 gap-8 lg:flex-row-reverse relative z-10">
@@ -121,31 +125,63 @@
         </div>
       </div>
     </section>
-    <section class="py-20">
+    <section class="py-20 stats-section">
       <div class="container">
         <div class="grid md:grid-cols-4 grid-cols-2 py-8 shadow-lg rounded-lg">
           <div class="text-center">
             <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
+            <h2 class="text-primary">2000+</h2>
+            <p class="lead1">Clients Worldwide</p>
           </div>
           <div class="text-center">
             <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
+            <h2 class="text-primary">5000+</h2>
+            <p class="lead1">Projects Completed</p>
           </div>
           <div class="text-center">
             <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
+            <h2 class="text-primary">150+</h2>
+            <p class="lead1">Employees</p>
           </div>
           <div class="text-center">
             <img class="mx-auto mb-4" src="assets/logos/01.svg" alt="">
-            <h2 class="text-primary">40+</h2>
-            <p class="lead1">Happy Clients</p>
+            <h2 class="text-primary">10+</h2>
+            <p class="lead1">Years In Business</p>
           </div>
         </div>
       </div>
+    </section>
+    <section class="testimonial py-20">
+      <div class="container">
+        <h2 class="mb-8"><span class="text-primary">Our</span>Clients Speak to us</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonials rounded-lg">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials rounded-lg">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials rounded-lg">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials rounded-lg">
+
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
     </section>
   </main>
   <?php 
@@ -153,6 +189,10 @@
   ?>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.2/swiper-bundle.min.js"
+    integrity="sha512-QSMp0RngktZnLj6y+Bii6xQ0H7Ym3qqAHYzD8Ld7aPqu36/0IijzW3p8JXQVah6d+vWD5Lu3/dPsAjdGG2RBcw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 

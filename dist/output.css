@@ -447,14 +447,14 @@ html {
 :root {
   --p: 5 63% 45%;
   --pf: 5 63% 38%;
-  --sf: 340 100% 88%;
+  --sf: 7 100% 88%;
   --af: 6 100% 75%;
   --nf: 5 63% 38%;
   --b2: 0 0% 93%;
   --b3: 0 0% 86%;
   --bc: 146 0% 19%;
   --pc: 11 73% 89%;
-  --sc: 340 4% 18%;
+  --sc: 7 4% 18%;
   --ac: 7 17% 16%;
   --nc: 11 73% 89%;
   --inc: 215 28% 13%;
@@ -471,7 +471,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --s: 340 100% 95%;
+  --s: 7 100% 95%;
   --a: 6 100% 82%;
   --n: 5 63% 45%;
   --b1: 0 0% 100%;
@@ -1714,6 +1714,10 @@ html {
   margin-top: 0.75rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1900,6 +1904,11 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--s) / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1937,9 +1946,13 @@ body {
   }
 }
 
-header.solid-nav-anim {
+.header.solid-nav-anim {
   background-color: #fff;
   transition: all 0.2s linear;
+}
+
+main {
+  margin-top: -109px;
 }
 
 @media (max-width: 1023.5px) {
@@ -1967,7 +1980,7 @@ h6,
 .body1,
 .body2,
 .capitalized {
-  color: #18191F;
+  color: #18191f;
 }
 
 h1 {
@@ -2173,6 +2186,24 @@ h6 {
 .tech-section .grid .row-span-3 img:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.stats-section {
+  background: linear-gradient(to bottom, #ffe7e4 50%, #ffffff 50%);
+}
+
+.stats-section .container .grid {
+  background: #ffffff;
+}
+
+.testimonial {
+  background: #ffe7e4;
+  overflow: hidden;
+}
+
+.testimonial .testimonials {
+  height: 300px;
+  background: #ffffff;
 }
 
 @media (min-width: 768px) {
