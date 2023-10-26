@@ -33,3 +33,16 @@
         </nav>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.2/swiper-bundle.min.js"
+    integrity="sha512-QSMp0RngktZnLj6y+Bii6xQ0H7Ym3qqAHYzD8Ld7aPqu36/0IijzW3p8JXQVah6d+vWD5Lu3/dPsAjdGG2RBcw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

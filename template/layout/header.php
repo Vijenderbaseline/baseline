@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Web Development & Web Designing Company in Mohali, India</title>
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.2/swiper-bundle.min.css"
+    integrity="sha512-PRY5WanOn66pQYvwsRB8RtbxSr9FbDaieE2fRrBOOcjluzKggxMbmCiSMTL7Lw2m/oAdpalMYhxpz5LwO3Q4Ag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+
+<body>
 <header class="topnav py-2 relative z-50">
     <div class="container flex justify-between flex-col md:flex-row">
         <div class="phone-email mb-4 md:mb-0 col-span-4 flex md:block">
@@ -32,7 +56,7 @@
                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 label-md">
                     <li><a>About</a></li>
                     <li>
-                        <a>Services</a>
+                        <a href="services.php">Services</a>
                         <ul class="p-2">
                             <li><a>Submenu 1</a></li>
                             <li><a>Submenu 2</a></li>
@@ -50,7 +74,7 @@
                 <li><a>About</a></li>
                 <li tabindex="0">
                     <details>
-                        <summary>Services</summary>
+                        <summary><a href="services.php">Services</a></summary>
                         <ul class="p-2">
                             <li><a>Submenu 1</a></li>
                             <li><a>Submenu 2</a></li>

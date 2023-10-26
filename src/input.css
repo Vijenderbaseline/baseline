@@ -255,11 +255,13 @@ h6 {
   background: #ffffff;
 }
 
-.testimonial {
-  background: #ffe7e4;
+.testimonial .testimonials p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.testimonial .testimonials {
-  height: 300px;
-  background: #ffffff;
+
+.service-hero .laptop {
+  height: 250px;
 }/*# sourceMappingURL=input.css.map */

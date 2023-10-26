@@ -300,10 +300,18 @@ h6 {
 }
 
 .testimonial {
-  background: #ffe7e4;
-  overflow: hidden;
   .testimonials {
-    height: 300px;
-    background: #ffffff;
+    p {
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
   }
+}
+
+.service-hero{
+    .laptop{
+        height: 250px;
+    }
 }

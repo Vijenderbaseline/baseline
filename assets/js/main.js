@@ -1,11 +1,17 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination-custom",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
     },
-  });
+  },
+});
 window.addEventListener("DOMContentLoaded", (event) => {
   /* Sticky Nav */
   $(window).scroll(function () {
