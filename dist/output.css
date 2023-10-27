@@ -2051,10 +2051,6 @@ header.solid-nav-anim {
   transition: all 0.2s linear;
 }
 
-main {
-  margin-top: -109px;
-}
-
 @media (max-width: 1023.5px) {
   main {
     margin-top: 0 !important;
@@ -2305,6 +2301,12 @@ h6 {
 
 .service-hero .laptop {
   height: 250px;
+}
+
+.solution-section .bg-accent {
+  background: url(../assets/images/hexabg.png) no-repeat right;
+  background-color: #FFACA3;
+  background-size: contain;
 }
 
 @media (min-width: 768px) {
