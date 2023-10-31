@@ -21,7 +21,7 @@ Get More Done.
                 with us
             </h2>
             <div class="grid grid-cols-12 gap-8">
-                <div class="col-span-6 flex items-center">
+                <div class="md:col-span-6 col-span-12 flex items-center">
                     <div class="icon-section bg-gray-100 rounded-full p-6 mr-10">
                         <img src="assets/logos/01.svg" alt="">
                     </div>
@@ -30,7 +30,7 @@ Get More Done.
                         <p class="body1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
                     </div>
                 </div>
-                <div class="col-span-6 flex items-center">
+                <div class="md:col-span-6 col-span-12 flex items-center">
                     <div class="icon-section bg-gray-100 rounded-full p-6 mr-10">
                         <img src="assets/logos/01.svg" alt="">
                     </div>
@@ -39,7 +39,7 @@ Get More Done.
                         <p class="body1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
                     </div>
                 </div>
-                <div class="col-span-6 flex items-center">
+                <div class="md:col-span-6 col-span-12 flex items-center">
                     <div class="icon-section bg-gray-100 rounded-full p-6 mr-10">
                         <img src="assets/logos/01.svg" alt="">
                     </div>
@@ -48,7 +48,7 @@ Get More Done.
                         <p class="body1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.</p>
                     </div>
                 </div>
-                <div class="col-span-6 flex items-center">
+                <div class="md:col-span-6 col-span-12 flex items-center">
                     <div class="icon-section bg-gray-100 rounded-full p-6 mr-10">
                         <img src="assets/logos/01.svg" alt="">
                     </div>
@@ -63,7 +63,7 @@ Get More Done.
     <section class="solution-section py-16 bg-secondary">
         <div class="container">
             <div class="grid p-12 bg-accent rounded-2xl grid-cols-12">
-                <div class="col-span-8">
+                <div class="md:col-span-8 col-span-12">
                     <h3 class="mb-8 text-white">The simplest solution to the most complex problem is provided by us</h3>
                     <a href="contact-us.php" class="btn btn-default text-primary font-bold">Contact Us</a>
                 </div>

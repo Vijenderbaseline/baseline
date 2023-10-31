@@ -86,6 +86,14 @@ h3 {
   font-weight: 800;
   line-height: 54px;
 }
+@media (max-width: 768px) {
+  h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
+}
 
 h4 {
   font-size: 28px;
@@ -264,6 +272,11 @@ h6 {
 
 .solution-section .bg-accent {
   background: url(../assets/images/hexabg.png) no-repeat right;
-  background-color: #FFACA3;
+  background-color: #ffaca3;
   background-size: contain;
+}
+@media (max-width: 768px) {
+  .solution-section .bg-accent {
+    background: #ffaca3;
+  }
 }/*# sourceMappingURL=input.css.map */

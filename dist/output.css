@@ -1710,14 +1710,6 @@ html {
   grid-column: span 4 / span 4;
 }
 
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
-.col-span-8 {
-  grid-column: span 8 / span 8;
-}
-
 .row-span-3 {
   grid-row: span 3 / span 3;
 }
@@ -2118,6 +2110,15 @@ h3 {
   line-height: 54px;
 }
 
+@media (max-width: 768px) {
+  h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
+}
+
 h4 {
   font-size: 28px;
   font-style: normal;
@@ -2305,8 +2306,14 @@ h6 {
 
 .solution-section .bg-accent {
   background: url(../assets/images/hexabg.png) no-repeat right;
-  background-color: #FFACA3;
+  background-color: #ffaca3;
   background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .solution-section .bg-accent {
+    background: #ffaca3;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2320,6 +2327,10 @@ h6 {
 
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:col-span-8 {
+    grid-column: span 8 / span 8;
   }
 
   .md\:mb-0 {

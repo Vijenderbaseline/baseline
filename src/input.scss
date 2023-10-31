@@ -44,10 +44,10 @@ body {
 }
 
 header {
-    &.solid-nav-anim {
-        background-color: #fff;
-        transition: all 0.2s linear;
-    }
+  &.solid-nav-anim {
+    background-color: #fff;
+    transition: all 0.2s linear;
+  }
 }
 
 @include tablet {
@@ -112,6 +112,13 @@ h3 {
   font-style: normal;
   font-weight: 800;
   line-height: 54px;
+  
+  @include mobile {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
 }
 
 h4 {
@@ -306,16 +313,20 @@ h6 {
   }
 }
 
-.service-hero{
-    .laptop{
-        height: 250px;
-    }
+.service-hero {
+  .laptop {
+    height: 250px;
+  }
 }
 
-.solution-section{
-  .bg-accent{
+.solution-section {
+  .bg-accent {
     background: url(../assets/images/hexabg.png) no-repeat right;
-    background-color: #FFACA3;
+    background-color: #ffaca3;
     background-size: contain;
+
+    @include mobile {
+      background: #ffaca3;
+    }
   }
 }
