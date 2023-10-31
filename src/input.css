@@ -9,7 +9,7 @@ body {
 .container {
   padding-right: 100px;
   padding-left: 100px;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
@@ -281,6 +281,12 @@ h6 {
   }
 }
 
+.our-mission .img-box {
+  height: 378px;
+}
+
 .about-section {
-  background: linear-gradient(194deg, #d9e8ef 9.6%, #eaf2f5 89.64%);
+  background: url(../assets/images/aboutbg.png) right no-repeat;
+  background-size: contain;
+  height: calc(100vh - 128px);
 }/*# sourceMappingURL=input.css.map */
