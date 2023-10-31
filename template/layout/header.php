@@ -54,7 +54,7 @@
                 </label>
                 <ul tabindex="0"
                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 label-md">
-                    <li><a>About</a></li>
+                    <li><a href="about-us.php">About</a></li>
                     <li>
                         <a href="services.php">Services</a>
                         <ul class="p-2">
@@ -71,7 +71,7 @@
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 label-md gap-4">
-                <li><a>About</a></li>
+                <li><a href="about-us.php">About</a></li>
                 <li tabindex="0">
                     <details>
                         <summary><a href="services.php">Services</a></summary>

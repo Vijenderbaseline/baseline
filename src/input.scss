@@ -112,7 +112,7 @@ h3 {
   font-style: normal;
   font-weight: 800;
   line-height: 54px;
-  
+
   @include mobile {
     font-size: 28px;
     font-style: normal;
@@ -329,4 +329,8 @@ h6 {
       background: #ffaca3;
     }
   }
+}
+
+.about-section {
+  background: linear-gradient(194deg, #d9e8ef 9.6%, #eaf2f5 89.64%);
 }

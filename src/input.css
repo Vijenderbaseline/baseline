@@ -279,4 +279,8 @@ h6 {
   .solution-section .bg-accent {
     background: #ffaca3;
   }
+}
+
+.about-section {
+  background: linear-gradient(194deg, #d9e8ef 9.6%, #eaf2f5 89.64%);
 }/*# sourceMappingURL=input.css.map */
