@@ -15,7 +15,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
@@ -31,7 +31,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
@@ -47,7 +47,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
@@ -63,7 +63,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
@@ -79,7 +79,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
@@ -95,7 +95,7 @@
                     <div class="card-body">
                       <h2 class="card-title">
                         Shoes!
-                        <div class="badge badge-secondary">NEW</div>
+                        <div class="badge badge-primary">NEW</div>
                       </h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
