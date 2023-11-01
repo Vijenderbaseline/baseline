@@ -5,8 +5,7 @@
           <span class="text-primary">Technologies</span> We Use
         </h2>
         <p class="lead1">
-          Customers who use Landify UI Kit to build their new startup landing
-          page.
+        We have been working with some Fortune 500 clients
         </p>
       </div>
       <div
