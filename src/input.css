@@ -9,7 +9,7 @@ body {
 .container {
   padding-right: 100px;
   padding-left: 100px;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
@@ -22,10 +22,6 @@ body {
 header.solid-nav-anim {
   background-color: #fff;
   transition: all 0.2s linear;
-}
-
-main {
-  margin-top: -109px;
 }
 
 @media (max-width: 1023.5px) {
@@ -89,6 +85,14 @@ h3 {
   font-style: normal;
   font-weight: 800;
   line-height: 54px;
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
 }
 
 h4 {
@@ -264,4 +268,25 @@ h6 {
 
 .service-hero .laptop {
   height: 250px;
+}
+
+.solution-section .bg-accent {
+  background: url(../assets/images/hexabg.png) no-repeat right;
+  background-color: #ffaca3;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .solution-section .bg-accent {
+    background: #ffaca3;
+  }
+}
+
+.our-mission .img-box {
+  height: 378px;
+}
+
+.about-section {
+  background: url(../assets/images/aboutbg.png) right no-repeat;
+  background-size: contain;
+  height: calc(100vh - 128px);
 }/*# sourceMappingURL=input.css.map */

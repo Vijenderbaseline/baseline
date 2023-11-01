@@ -54,7 +54,7 @@
                 </label>
                 <ul tabindex="0"
                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 label-md">
-                    <li><a>About</a></li>
+                    <li><a href="about-us.php">About</a></li>
                     <li>
                         <a href="services.php">Services</a>
                         <ul class="p-2">
@@ -63,15 +63,15 @@
                         </ul>
                     </li>
                     <li><a>Career</a></li>
-                    <li><a>Blog</a></li>
+                    <li><a href="blog.php">Blog</a></li>
                 </ul>
             </div>
             <a href="/" class="h-full inline-block"><img class="h-10" src="assets/logos/baselinelogo.svg" alt=""
                     srcset=""></a>
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 label-md gap-4">
-                <li><a>About</a></li>
+        <div class="navbar-center hidden lg:flex bg-secondary rounded-full">
+            <ul class="menu menu-horizontal px-4 label-md gap-4">
+                <li><a href="about-us.php">About</a></li>
                 <li tabindex="0">
                     <details>
                         <summary><a href="services.php">Services</a></summary>
@@ -82,11 +82,11 @@
                     </details>
                 </li>
                 <li><a>Career</a></li>
-                <li><a>Blog</a></li>
+                <li><a href="blog.php">Blog</a></li>
             </ul>
         </div>
         <div class="navbar-end">
-            <a class="btn btn-primary">Contact Us</a>
+            <a class="btn btn-primary rounded-full px-6">Contact Us</a>
         </div>
     </div>
 </header>
