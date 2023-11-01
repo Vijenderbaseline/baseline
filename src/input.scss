@@ -314,6 +314,9 @@ h6 {
 }
 
 .service-hero {
+  background: url(../assets/images/servicebg.jpg) no-repeat center;
+  background-size: cover;
+  box-shadow: 0px 180px 29px -35px rgba(255, 255, 255, 0.7) inset;
   .laptop {
     height: 250px;
   }
@@ -341,4 +344,22 @@ h6 {
   background: url(../assets/images/aboutbg.png) right no-repeat;
   background-size: contain;
   height: calc(100vh - 128px);
+}
+
+.services-section {
+  .grid {
+    i {
+      font-size: 32px;
+      line-height: 32px;
+      height: 65px;
+      width: 65px;
+      display: flex;
+      background: #ffe7e4;
+      border-radius: 99999999px;
+      color: #bb372a;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+  }
 }

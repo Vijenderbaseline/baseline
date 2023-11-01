@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -25,10 +25,10 @@
 <header class="topnav py-2 relative z-50">
     <div class="container flex justify-between flex-col md:flex-row">
         <div class="phone-email mb-4 md:mb-0 col-span-4 flex md:block">
-            <a href="tel:7340740007" class="mr-4 md:mr-8 inline-block">
+            <a href="tel:7340740007" class="mr-4 md:mr-8 inline-block font-semibold">
                 <i class="fa-solid fa-phone mr-2 text-primary"></i>7340740007
             </a>
-            <a class="inline-block" href="mailto:hr@baselineitdevelopment.com">
+            <a class="inline-block font-semibold" href="mailto:hr@baselineitdevelopment.com">
                 <i class="fa-solid fa-envelope mr-2 text-primary"></i>hr@baselineitdevelopment.com
             </a>
         </div>
@@ -69,7 +69,7 @@
             <a href="/" class="h-full inline-block"><img class="h-10" src="assets/logos/baselinelogo.svg" alt=""
                     srcset=""></a>
         </div>
-        <div class="navbar-center hidden lg:flex bg-secondary rounded-full">
+        <div class="navbar-center hidden lg:flex bg-secondary rounded-full shadow">
             <ul class="menu menu-horizontal px-4 label-md gap-4">
                 <li><a href="about-us.php">About</a></li>
                 <li tabindex="0">
@@ -86,7 +86,7 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <a class="btn btn-primary rounded-full px-6">Contact Us</a>
+            <a class="btn btn-primary rounded-full px-6 shadow">Contact Us</a>
         </div>
     </div>
 </header>
