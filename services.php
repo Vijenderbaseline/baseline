@@ -2,10 +2,10 @@
     include_once('template/layout/header.php');
 ?>
 <main style="margin-top: -128px">
-  <section class="service-hero min-h-screen py-8 flex items-center">
+  <section class="service-hero md:min-h-screen py-8 flex items-center">
     <div class="container">
       <div
-        class="glass hero-content mr-auto w-1/2 flex flex-col justify-center items-start rounded-3xl p-8"
+        class="glass hero-content mr-auto md:w-1/2 flex flex-col justify-center items-start rounded-3xl p-8"
       >
         <h2 class="mb-4">
           <span class="text-primary">Organise</span> Projects. Get More Done.

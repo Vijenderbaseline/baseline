@@ -114,7 +114,7 @@
                   <li><a>Submenu 2</a></li>
                 </ul>
               </li>
-              <li><a>Career</a></li>
+              <li><a href="career.php">Career</a></li>
               <li><a href="blog.php">Blog</a></li>
             </ul>
           </div>
@@ -140,7 +140,7 @@
                 </ul>
               </details>
             </li>
-            <li><a>Career</a></li>
+            <li><a href="career.php">Career</a></li>
             <li><a href="blog.php">Blog</a></li>
           </ul>
         </div>
