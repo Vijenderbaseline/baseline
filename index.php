@@ -20,20 +20,25 @@
           <button class="btn btn-primary px-6 rounded-full mr-3">
             Get Started
           </button>
-          <button  onclick="my_modal_2.showModal()" class="btn btn-secondary px-6 rounded-full">
+          <button
+            onclick="my_modal_2.showModal()"
+            class="btn btn-secondary px-6 rounded-full"
+          >
             Watch Video
             <i class="fa-solid fa-circle-play fa-fade text-primary"></i>
           </button>
           <dialog id="my_modal_2" class="modal">
             <div class="modal-box">
-              <h3 class="font-bold text-lg">Hello!</h3>
-              <p class="py-4"><span class="text-primary">A Video will be added here</span><br> Press ESC key or click outside to close</p>
+              <video controls autoplay="autoplay">
+                <source src="/assets/videos/herovideo.mp4" type="video/mp4" />
+              </video>
             </div>
             <form method="dialog" class="modal-backdrop">
               <button>close</button>
             </form>
           </dialog>
         </div>
+
         <div class="lg:col-span-6 col-span-12">
           <dotlottie-player
             class="dotlottie"
@@ -57,7 +62,7 @@
       </div>
     </div>
   </section>
- 
+
   <?php 
     include_once('template/components/tech.php');
   ?>
