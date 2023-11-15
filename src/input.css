@@ -307,6 +307,16 @@ h6 {
   height: 250px;
 }
 
+.address-section {
+  background: url(../assets/images/mapbg.png) no-repeat bottom;
+  background-size: 100% 500px;
+}
+@media (max-width: 768px) {
+  .address-section {
+    background-size: 100% 300px;
+  }
+}
+
 .solution-section .bg-accent {
   background: url(../assets/images/hexabg.png) no-repeat right;
   background-color: #ffaca3;

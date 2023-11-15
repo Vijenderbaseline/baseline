@@ -3,7 +3,7 @@
 ?>
 <main style="margin-top: -128px">
   <section
-    class="contact-hero md:min-h-screen flex justify-center items-center"
+    class="contact-hero py-10 md:py-0 md:min-h-screen flex justify-center items-center"
   >
     <div class="container">
       <div
@@ -27,7 +27,7 @@
   </section>
   <section class="contact-form py-20">
     <div class="container grid items-center gap-8 grid-cols-12">
-      <div class="form-div col-span-6">
+      <div class="form-div col-span-12 md:col-span-6">
         <form class="grid grid-cols-12 gap-6" action="">
           <div class="form-control col-span-6">
             <label class="label">
@@ -86,12 +86,12 @@
           <div class="form-control col-span-12">
             <div id="html_element"></div>
           </div>
-          <div class="form-control col-span-2">
+          <div class="form-control col-span-12 md:col-span-2">
             <input class="btn btn-primary" type="submit" value="Send" />
           </div>
         </form>
       </div>
-      <div class="img-div col-span-6">
+      <div class="img-div col-span-12 md:col-span-6">
         <img src="/assets/images/contact_image.png" alt="" />
       </div>
     </div>
@@ -107,8 +107,8 @@
         E-Mail: <a class="text-primary" href="mailto:sales@baselineitdevelopment.com">sales@baselineitdevelopment.com</a>
       </p>
 
-      <div class="map-div mt-6 overflow-hidden rounded-3xl shadow-xl">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.2541470297783!2d76.70341921539709!3d30.71125489371788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee9fe6a743ff%3A0x384c4fd813517643!2sBaseline%20IT%20Development%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1661328908112!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-div mt-6 overflow-hidden rounded-3xl shadow-xl border-primary border-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.2541470297783!2d76.70341921539709!3d30.71125489371788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee9fe6a743ff%3A0x384c4fd813517643!2sBaseline%20IT%20Development%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1661328908112!5m2!1sen!2sin" width="100%" height="610" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>

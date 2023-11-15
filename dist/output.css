@@ -2489,10 +2489,6 @@ html {
   grid-column: span 12 / span 12;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -2570,6 +2566,10 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -2580,10 +2580,6 @@ html {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .inline-block {
@@ -2723,8 +2719,13 @@ html {
   border-radius: 0.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
+.border-2 {
+  border-width: 2px;
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
 }
 
 .bg-accent {
@@ -3246,6 +3247,17 @@ h6 {
   height: 250px;
 }
 
+.address-section {
+  background: url(../assets/images/mapbg.png) no-repeat bottom;
+  background-size: 100% 500px;
+}
+
+@media (max-width: 768px) {
+  .address-section {
+    background-size: 100% 300px;
+  }
+}
+
 .solution-section .bg-accent {
   background: url(../assets/images/hexabg.png) no-repeat right;
   background-color: #ffaca3;
@@ -3322,6 +3334,10 @@ h6 {
     grid-column: span 1 / span 1;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -3354,6 +3370,10 @@ h6 {
     display: grid;
   }
 
+  .md\:h-screen {
+    height: 100vh;
+  }
+
   .md\:min-h-screen {
     min-height: 100vh;
   }
@@ -3384,6 +3404,11 @@ h6 {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:text-center {

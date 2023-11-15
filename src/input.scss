@@ -352,6 +352,14 @@ h6 {
   }
 }
 
+.address-section{
+  background: url(../assets/images/mapbg.png) no-repeat bottom;
+  background-size: 100% 500px;
+  @include mobile{
+    background-size: 100% 300px;
+  }
+}
+
 .solution-section {
   .bg-accent {
     background: url(../assets/images/hexabg.png) no-repeat right;
