@@ -18,7 +18,6 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
 
-
     <link rel="stylesheet" href="dist/output.css" />
     <link
       rel="stylesheet"
@@ -45,6 +44,10 @@
       src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
       type="module"
     ></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
   </head>
 
   <body>
@@ -145,7 +148,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn btn-primary rounded-full px-6 shadow">Contact Us</a>
+          <a href="contact-us.php" class="btn btn-primary rounded-full px-6 shadow">Contact Us</a>
         </div>
       </div>
     </header>
