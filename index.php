@@ -112,7 +112,7 @@
           teamwork.
         </p>
       </div>
-      <img class="mt-12 w-full" src="assets/images/CoverImage.png" alt="" />
+      <img class="mt-12 w-full shadow-xl" src="assets/images/CoverImage.png" alt="" />
     </div>
   </section>
   <section class="testimonial py-20 bg-secondary overflow-hidden">

@@ -3,7 +3,7 @@
 ?>
 
 <main>
-  <section class="about-section h-screen flex items-center">
+  <section class="about-section md:h-screen flex items-center">
     <div class="container grid grid-cols-12 items-center">
       <div class="md:col-span-6 col-span-12">
         <h1>About our <span class="text-primary">company</span></h1>

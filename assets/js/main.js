@@ -12,6 +12,13 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+var onloadCallback = function() {
+  grecaptcha.render('html_element', {
+    'sitekey' : '6Lc_tw8pAAAAAOSpUt-sJT6mXiPQsfEDRTidqhV-'
+  });
+};
+
 window.addEventListener("DOMContentLoaded", (event) => {
   /* Sticky Nav */
   $(window).scroll(function () {
