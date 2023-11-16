@@ -359,4 +359,16 @@ h6 {
 #service .modal-box ul li {
   list-style-type: disclosure-closed;
   margin-bottom: 4px;
+}
+
+.footer aside img {
+  max-width: 50px;
+}
+.footer .chat-us span {
+  display: flex;
+  align-items: center;
+}
+.footer .chat-us span i {
+  font-size: 24px;
+  margin-right: 8px;
 }/*# sourceMappingURL=input.css.map */
