@@ -414,3 +414,21 @@ h6 {
     }
   }
 }
+
+.footer{
+  aside{
+    img{
+      max-width: 50px;
+    }
+  }
+  .chat-us{
+    span{
+      display: flex;
+      align-items: center;
+      i{
+        font-size: 24px;
+        margin-right: 8px;
+      }
+    }
+  }
+}

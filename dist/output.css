@@ -807,6 +807,15 @@ html {
   color: hsl(var(--nc) / var(--tw-text-opacity));
 }
 
+.chat {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -2610,10 +2619,6 @@ html {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -2760,10 +2765,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.fill-current {
-  fill: currentColor;
 }
 
 .p-12 {
@@ -3302,6 +3303,20 @@ h6 {
 #service .modal-box ul li {
   list-style-type: disclosure-closed;
   margin-bottom: 4px;
+}
+
+.footer aside img {
+  max-width: 50px;
+}
+
+.footer .chat-us span {
+  display: flex;
+  align-items: center;
+}
+
+.footer .chat-us span i {
+  font-size: 24px;
+  margin-right: 8px;
 }
 
 @media (min-width: 576px) {

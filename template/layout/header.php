@@ -113,8 +113,10 @@
               <li>
                 <a href="services.php">Services</a>
                 <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
+                  <li><a>Web Development</a></li>
+                  <li><a>SEO services</a></li>
+                  <li><a>Designing</a></li>
+                  <li><a>Digital marketing</a></li>
                 </ul>
               </li>
               <li><a href="career.php">Career</a></li>
@@ -138,8 +140,10 @@
               <details>
                 <summary><a href="services.php">Services</a></summary>
                 <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
+                  <li><a>Web Development</a></li>
+                  <li><a>SEO services</a></li>
+                  <li><a>Designing</a></li>
+                  <li><a>Digital marketing</a></li>
                 </ul>
               </details>
             </li>
