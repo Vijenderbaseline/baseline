@@ -13,9 +13,21 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-var onloadCallback = function() {
-  grecaptcha.render('html_element', {
-    'sitekey' : '6Lc_tw8pAAAAAOSpUt-sJT6mXiPQsfEDRTidqhV-'
+var Tawk_API = Tawk_API || {},
+  Tawk_LoadStart = new Date();
+(function () {
+  var s1 = document.createElement("script"),
+    s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = "https://embed.tawk.to/6322fdd354f06e12d894e192/1gd0av1bg";
+  s1.charset = "UTF-8";
+  s1.setAttribute("crossorigin", "*");
+  s0.parentNode.insertBefore(s1, s0);
+})();
+
+var onloadCallback = function () {
+  grecaptcha.render("html_element", {
+    sitekey: "6Lc_tw8pAAAAAOSpUt-sJT6mXiPQsfEDRTidqhV-",
   });
 };
 
